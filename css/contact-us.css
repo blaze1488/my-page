@@ -1,0 +1,294 @@
+i {
+    color: white;
+  }
+  
+  .links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .links li a {
+      color: #E8E8E3; /* Set the text color to white */
+   /* Remove underline from links */
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+  }
+  
+  /* This will make only the "Get Started" link text white */
+  #getstarted a {
+      color:#F0F8FF;
+  }
+  
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color:#758bdb;
+    margin: 0px;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .svg-social {
+    margin-right: 10px;
+  }
+  
+  
+  /* Start Landing Page */
+  .landing-page header {
+    min-height: 80px;
+    display: flex;
+  }
+  
+    .landing-page header {
+      min-height: auto;
+      display: initial;
+      text-align: center;
+    }
+  
+  .landing-page header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .landing-page header .logo {
+    color: #E8E8E3;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 20px;
+    background-color: #5E5E5E;
+    border-radius: 40px;
+    padding: 10px;
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+    
+  }
+  
+  .landing-page header .links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .landing-page header .links li {
+    margin-left: 30px;
+    color: #E8E8E3;
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .landing-page header .links li:last-child {
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: #F0F8FF;
+    background-color: #5E5E5E;
+  }
+  
+  .landing-page .content .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 140px;
+    min-height: calc(100vh - 80px);
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+  }
+  
+  .landing-page .content .info h1 {
+    color: #E8E8E3;
+    font-size: 44px;
+  }
+  .landing-page .content .info p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+    color: #E8E8E3;
+  }
+  .landing-page .content .info button {
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+  color: #E8E8E3;
+    background-color: #5E5E5E;
+    text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+  }
+  
+  
+  
+  
+  
+  
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    color: #E8E8E3;
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #758BDB;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #758BDB;
+  }
+  label {
+    color: #E8E8E3;
+   text-shadow: #000 1px 0 0px, #000 0 1px 0px, #000 -1px 0 0px, #000 0 -1px 0px;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #758BDB;
+    padding: 20px;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    bottom: 0;
+    width: 100vw;
+    font-size: 16px;
+  }
+  footer {
+    background-color: black;
+    color: white;
+    bottom: 0;
+    width: 100vw;
+    font-size: 16px;
+  }
+  footer * {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  .row {
+    padding: 1em 1em;
+  }
+  .row.primary {
+    display: grid;
+    grid-template-columns: 3fr 2fr 4fr;
+    align-items: stretch;
+  }
+  .column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    min-height: 15em;
+  }
+  h3 {
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    white-space: nowrap;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .social-media:not(:first-child) {
+    margin-top: 0.8em;
+  }
+  ul li a {
+    color: #a7a7a7;
+    text-decoration: none;
+  }
+  ul li a:hover {
+    color: #758bdb
+  }
+  .about p {
+    text-align: justify;
+    line-height: 2;
+    margin: 0;
+  }
+  input,
+  button {
+    font-size: 1em;
+    padding: 1em;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  button {
+    background-color: #758BDB;
+    color: #ffffff;
+  }
+  column about {
+    color: #25262e;
+  }
+  div.social {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2.4em;
+    flex-direction: row;
+    margin-top: 0.5em;
+  }
+  .social i {
+    color: #bac6d9;
+  }
+  .copyright {
+    padding: 0.3em 1em;
+    background-color: #25262e;
+  }
+  .footer-menu{
+    float: left;
+      margin-top: 10px;
+  }
+  .footer-menu a{
+    color: #5E5E5E;
+    padding: 6px;
+    text-decoration: none;
+  }
+  .footer-menu a:hover, .social i:hover{
+    color: #758bdb;
+  }
+  .copyright p {
+    font-size: 0.9em;
+    text-align: right;
+    color: white;
+    
+  }
+  @media screen and (max-width: 850px) {
+    .row.primary {
+      grid-template-columns: 1fr;
+    }
+  }
+  
